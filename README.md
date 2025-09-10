@@ -55,3 +55,6 @@ DELETE /posts/:id → Post sil
 ````
 ![Home Yapısı](photos/home.png)
 ![Users Sayfası](photos/users.png)
+![Posts Sayfası](photos/posts.png)
+
+
