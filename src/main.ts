@@ -9,6 +9,8 @@ async function bootstrap() {
     credentials: true,
   });
 
-  await app.listen(3000);
+  // Render veya Heroku gibi servislerin verdiği PORT’u kullan
+  const port = process.env.PORT || 3000;
+  await app.listen(port);
 }
 bootstrap();
